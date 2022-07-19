@@ -3,8 +3,8 @@ package ru.job4j.oop;
 public class Battery {
     private int load;
 
-    public Battery(int load) {
-        this.load = load;
+    public Battery(int size) {
+        this.load = size;
     }
 
     public int getLoad() {
@@ -15,12 +15,11 @@ public class Battery {
         this.load = this.load + another.load;
         another.load = 0;
     }
-
     public static void main(String[] args) {
-        Battery first = new Battery(250);
-        Battery second = new Battery(50);
-        System.out.println("first : " + first.load + ". second : " + second.load);
-        first.exchange(second);
-        System.out.println("first : " + first.load + ". second : " + second.load);
+        Battery charger = new Battery(250);
+        Battery another = new Battery(50);
+        System.out.println("charger : " + charger.load + ". another : " + another.load);
+        another.exchange(charger);
+        System.out.println("charger : " + charger.load + ". another : " + another.load);
     }
 }
