@@ -4,11 +4,9 @@ public class Cat {
     private String name;
     private String food;
 
-
     public void show() {
         System.out.println(this.name);
         System.out.println(this.food);
-
     }
 
     public void eat(String meat) {
