@@ -5,6 +5,5 @@ public class Wolff {
         ball.tryRun(false);
     }
         public void tryBall(){
-
         }
     }

@@ -5,6 +5,5 @@ public class Hare {
         ball.tryRun(false);
     }
         public void tryBall(){
-
         }
     }
