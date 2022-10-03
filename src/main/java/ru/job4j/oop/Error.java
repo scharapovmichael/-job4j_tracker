@@ -11,7 +11,6 @@ public class Error {
         System.out.println("Сообщение: " + message);
     }
 
-
     public Error() {
         active = true;
         status = 505;
