@@ -4,12 +4,10 @@ public class Calculator {
     private static int x = 5;
 
     public static int sum(int y) {
-
         return x + y;
     }
 
     public int multiply(int a) {
-
         return x * a;
     }
 
