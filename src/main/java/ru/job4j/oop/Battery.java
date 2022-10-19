@@ -15,6 +15,7 @@ public class Battery {
         another.load += this.load;
         this.load = 0;
     }
+
     public static void main(String[] args) {
         Battery charger = new Battery(250);
         Battery another = new Battery(50);
