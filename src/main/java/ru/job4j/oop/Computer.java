@@ -24,7 +24,6 @@ public class Computer {
         this.cpu = cpu;
     }
 
-
     public static void main(String[] args) {
         Computer computer = new Computer(true, 500, "Intel Core I7-10700K");
         computer.printInfo();
