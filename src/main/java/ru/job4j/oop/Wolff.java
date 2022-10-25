@@ -4,6 +4,7 @@ public class Wolff {
     public void tryEat(Ball ball) {
         ball.tryRun(false);
     }
-        public void tryBall(){
-        }
+
+    public void tryBall() {
     }
+}
