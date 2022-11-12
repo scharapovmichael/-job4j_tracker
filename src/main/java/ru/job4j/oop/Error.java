@@ -29,6 +29,6 @@ public class Error {
         Error error1 = new Error(true, 404, "Not Found");
         error1.printPos();
         Error error2 = new Error();
-        error2.printPos();
+        error2.printPos()
     }
 }
