@@ -17,6 +17,6 @@ public class Student {
         petya.music();
         petya.song();
         petya.music();
-        petya.song()
+        petya.song();
     }
 }
