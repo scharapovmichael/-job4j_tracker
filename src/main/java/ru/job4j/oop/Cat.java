@@ -25,6 +25,6 @@ public class Cat {
         Cat black = new Cat();
         black.giveNick("Black");
         black.eat("fish");
-        black.show();
+        black.show()
     }
 }
