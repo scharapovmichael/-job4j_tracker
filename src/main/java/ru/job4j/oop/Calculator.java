@@ -36,6 +36,6 @@ public class Calculator {
         System.out.println(pos);
         System.out.println(result);
         System.out.println(rsl);
-        System.out.println(wep)
+        System.out.println(wep);
     }
 }
