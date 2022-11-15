@@ -5,7 +5,6 @@ public class DummyDic {
         String language = "Unknown word";
         return language;
     }
-
     public static void main(String[] args) {
         DummyDic dic = new DummyDic();
         String eng = dic.engToRus();
