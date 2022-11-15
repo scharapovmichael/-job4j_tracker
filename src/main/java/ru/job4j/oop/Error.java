@@ -5,22 +5,18 @@ public class Error {
     private int status;
     private String message;
 
-    public void printPos() {
-        System.out.println("Активна: " + active);
-        System.out.println("Статус ошибки: " + status);
-        System.out.println("Сообщение: " + message);
-    }
-
     public Error() {
-        active = true;
-        status = 505;
-        message = "HTTP Version Not Supported";
     }
 
     public Error(boolean active, int status, String message) {
         this.active = active;
         this.status = status;
         this.message = message;
+    }
+    public void printPos() {
+        System.out.println("Активна: " + active);
+        System.out.println("Статус ошибки: " + status);
+        System.out.println("Сообщение: " + message);
     }
 
     public static void main(String[] args) {
