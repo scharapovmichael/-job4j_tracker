@@ -25,15 +25,15 @@ public class Calculator {
 
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
-        int pos = calculator.sum(10);
+        int summ = calculator.sum(10);
         int rsl = calculator.multiply(5);
         int result = calculator.minus(8);
-        int var = calculator.divide(30);
-        int wep = calculator.sumAllOperation(pos + rsl + result + var);
-        System.out.println(pos);
+        int div = calculator.divide(30);
+        int suma = calculator.sumAllOperation(summ + rsl + result + div);
+        System.out.println(summ);
         System.out.println(rsl);
         System.out.println(result);
-        System.out.println(var);
-        System.out.println(wep);
+        System.out.println(div);
+        System.out.println(suma);
     }
 }
