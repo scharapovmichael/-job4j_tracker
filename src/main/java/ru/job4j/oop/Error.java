@@ -13,6 +13,7 @@ public class Error {
         this.status = status;
         this.message = message;
     }
+
     public void printPos() {
         System.out.println("Активна: " + active);
         System.out.println("Статус ошибки: " + status);
