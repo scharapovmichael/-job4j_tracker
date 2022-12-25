@@ -34,6 +34,6 @@ public class Calculator {
         System.out.println(rsl);
         System.out.println(result);
         System.out.println(div);
-        System.out.println(suma) ;
+        System.out.println(suma);
     }
 }
