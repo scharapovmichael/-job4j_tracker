@@ -46,7 +46,7 @@ class PointTest {
     public void when01to00to00then1() {
         int expected = -1;
         Point c = new Point(0, 1, 0);
-        Point d = new Point(0, 0, 1);
+        Point d = new Point(0, 0, 0);
         double dist = c.distance3d(d);
         assertThat(dist).isEqualTo(expected);
     }
