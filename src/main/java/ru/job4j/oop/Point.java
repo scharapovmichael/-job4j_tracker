@@ -41,7 +41,7 @@ public class Point {
         System.out.println(dist);
         Point c = new Point(0, 0, 0);
         Point d = new Point(0, 2, 0);
-        double dddist = c.distance3d(d);
-        System.out.println(dddist);
+        double ddist = c.distance3d(d);
+        System.out.println(ddist);
     }
 }
