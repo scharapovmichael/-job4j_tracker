@@ -1,5 +1,6 @@
 package ru.job4j.oop;
 
+import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -49,5 +50,14 @@ class PointTest {
         Point d = new Point(0, 0, 0);
         double dist = c.distance3d(d);
         assertThat(dist).isEqualTo(expected);
+    }
+
+    @Test
+    public void when01to00to00then0() {
+        int expected = 1;
+        Point c = new Point(0, 0, 0);
+        Point d = new Point(0, 0, 1);
+        double dist = c.distance3d(d);
+        Assert.assertEquals(expected, dist, 0.01);
     }
 }
